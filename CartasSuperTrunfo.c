@@ -24,7 +24,7 @@ int main() {
     //Cadastro da CARTA 1
     //Solicitação de entrada da letra do estado da carta 1
     printf("Digite o Estado: \n");
-    scanf(" %s", &estado0);
+    scanf(" %c", &estado0);
 
     //Solicitação de entrada do código da carta 1 
     printf("Digite o código da carta 1: \n");
@@ -51,27 +51,27 @@ int main() {
     scanf(" %d", &pts_turisticos0);
 
     //Cadastro da CARTA 2
-    //Solicitação de entrada da letra do estado da carta 2
+    //Solicitação de entrada da letra do estado da carta 1
     printf("Digite o Estado: \n");
-    scanf(" %s", &estado1);
+    scanf(" %c", &estado1);
 
-    //Solicitação de entrada do código da carta 2
-    printf("Digite o código da carta 2: \n");
+    //Solicitação de entrada do código da carta 1 
+    printf("Digite o código da carta 1: \n");
     scanf(" %s", &cod_carta1);
 
-    //Solicitação de entrada da cidade da carta 2
+    //Solicitação de entrada da cidade da carta 1
     printf("Digite o nome da cidade: \n");
     scanf(" %s", &cidade1);
 
-    //Solicitação de entrada da população da cidade da carta 2
+    //Solicitação de entrada da população da cidade da carta 1
     printf("Digite a população: \n");
     scanf(" %d", &populus1);
 
-    //Solicitação de entrada da área da cidade da carta 2
+    //Solicitação de entrada da área da cidade da carta 1
     printf("Digite a area: \n");
     scanf(" %f", &area1);
 
-    //Solicitação de entrada do PIB da cidade da carta 2
+    //Solicitação de entrada do PIB da cidade da carta 1
     printf("Digite o PIB: \n");
     scanf(" %f", &PIB1);
 
@@ -92,7 +92,7 @@ int main() {
     printf("PIB: %.2f\n", PIB0);
     printf("No de pontos turísticos: %d\n", pts_turisticos0);
 
-    //CARTA 2
+    //CARTA2
     printf("\nCARTA 2\n");
     printf("Estado: %c\n", estado1);
     printf("Código da carta: %s\n", cod_carta1);
@@ -101,7 +101,8 @@ int main() {
     printf("Área: %.2f\n", area1);
     printf("PIB: %.2f\n", PIB1);
     printf("No de pontos turísticos: %d\n", pts_turisticos1);
+    
+    getchar();
 
-    gettchar();
     return 0;
 }
