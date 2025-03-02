@@ -50,12 +50,12 @@ int main() {
     scanf(" %f", &PIB0);
 
     //Solicitação de entrada do nº de pontos turísticos da cidade da carta 1
-    printf("Digite o número de pontos turísticos: \n");
+    printf("Digite o número de pontos turísticos: ");
     scanf(" %d", &pts_turisticos0);
 
     //Cadastro da CARTA 2
     //Solicitação de entrada da letra do estado da carta 1
-    printf("Digite o Estado: ");
+    printf("\nDigite o Estado: ");
     scanf(" %c", &estado1);
 
     //Solicitação de entrada do código da carta 1 
@@ -79,7 +79,7 @@ int main() {
     scanf(" %f", &PIB1);
 
     //Solicitação de entrada do nº de pontos turísticos da cidade da carta 1
-    printf("Digite o número de pontos turísticos: \n");
+    printf("Digite o número de pontos turísticos: ");
     scanf(" %d", &pts_turisticos1);
 
     //Cálculo da densidade populacional e do PIB per capita
