@@ -24,7 +24,7 @@ int main() {
     //Cadastro da CARTA 1
     //Solicitação de entrada da letra do estado da carta 1
     printf("Digite o Estado: ");
-    scanf_s("%c", &estado0);
+    scanf("%c", &estado0);
     
     //Solicitação de entrada do código da carta 1 
     printf("Digite o código da carta 1: ");
