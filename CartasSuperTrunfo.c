@@ -102,8 +102,6 @@ int main() {
     printf("No de pontos turísticos: %d\n", pts_turisticos0);
     printf("Densidade populacional: %.2f\n", densidade_pop0);
     printf("PIB per capita: %.2f\n", pib_per_capita0);
-    printf("Densidade populacional: %.2f\n", densidade_pop1);
-    printf("PIB per capita: %.2f\n", pib_per_capita1);
 
     //CARTA 2
 
