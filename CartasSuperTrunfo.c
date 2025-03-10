@@ -46,7 +46,7 @@ int main() {
 
     // Solicitação de entrada da população da cidade da carta 1
     printf("Digite a população: ");
-    scanf(" %d", &populus0);
+    scanf(" %u", &populus0);
 
     // Solicitação de entrada da área da cidade da carta 1
     printf("Digite a area: ");
@@ -75,7 +75,7 @@ int main() {
 
     // Solicitação de entrada da população da cidade da carta 2
     printf("Digite a população: ");
-    scanf(" %d", &populus1);
+    scanf(" %u", &populus1);
 
     // Solicitação de entrada da área da cidade da carta 2
     printf("Digite a area: ");
@@ -116,7 +116,7 @@ int main() {
     printf("Estado: %c\n", estado0);
     printf("Código da carta: %s\n", cod_carta0);
     printf("Nome da cidade: %s\n", cidade0);
-    printf("População: %d\n", populus0);
+    printf("População: %u\n", populus0);
     printf("Área: %.2f\n", area0);
     printf("PIB: %.2f\n", PIB0);
     printf("No de pontos turísticos: %d\n", pts_turisticos0);
@@ -129,7 +129,7 @@ int main() {
     printf("Estado: %c\n", estado1);
     printf("Código da carta: %s\n", cod_carta1);
     printf("Nome da cidade: %s\n", cidade1);
-    printf("População: %d\n", populus1);
+    printf("População: %u\n", populus1);
     printf("Área: %.2f\n", area1);
     printf("PIB: %.2f\n", PIB1);
     printf("No de pontos turísticos: %d\n", pts_turisticos1);
