@@ -90,8 +90,8 @@ int main() {
     scanf(" %d%*c", &pts_turisticos1);
 
     // Cálculos das densidades populacionais e dos PIBs per capita
-    densidade_pop0 = populus0 / area0;
-    densidade_pop1 = populus1 / area1;
+    densidade_pop0 = (float) populus0 / area0;
+    densidade_pop1 = (float) populus1 / area1;
     pib_per_capita0 = (float) PIB0 / populus0;
     pib_per_capita1 = (float) PIB1 / populus1;
 
