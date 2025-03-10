@@ -50,11 +50,11 @@ int main() {
 
     // Solicitação de entrada da área da cidade da carta 1
     printf("Digite a area: ");
-    scanf(" %.2f", &area0);
+    scanf(" %f", &area0);
 
     // Solicitação de entrada do PIB da cidade da carta 1
     printf("Digite o PIB: ");
-    scanf(" %.2f", &PIB0);
+    scanf(" %f", &PIB0);
 
     // Solicitação de entrada do nº de pontos turísticos da cidade da carta 1
     printf("Digite o número de pontos turísticos: ");
@@ -79,11 +79,11 @@ int main() {
 
     // Solicitação de entrada da área da cidade da carta 2
     printf("Digite a area: ");
-    scanf(" %.2f", &area1);
+    scanf(" %f", &area1);
 
     // Solicitação de entrada do PIB da cidade da carta 2
     printf("Digite o PIB: ");
-    scanf(" %.2f", &PIB1);
+    scanf(" %f", &PIB1);
 
     // Solicitação de entrada do nº de pontos turísticos da cidade da carta 1
     printf("Digite o número de pontos turísticos: ");
