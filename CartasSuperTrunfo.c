@@ -97,7 +97,7 @@ int main() {
 
     //************** Cálculos dos superpoderes
     superpoder0 = (float) populus0 + area0 + PIB0 + pts_turisticos0 + pib_per_capita0 + (1 / densidade_pop0);
-    superpoder1 = (float) populus1 + area1 + PIB1 + pts_turisticos1 + pib_per_capita1 + (1 / densidade_pop1);
+    superpoder1 = (float) area1 + PIB1 + pts_turisticos1 + pib_per_capita1 + (1 / densidade_pop1);
     
     //************** Resultados das comparações
     comp_populus = populus1 > populus0;
