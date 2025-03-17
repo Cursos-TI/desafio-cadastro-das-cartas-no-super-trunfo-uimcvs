@@ -92,12 +92,12 @@ int main() {
     // Cálculos das densidades populacionais e dos PIBs per capita
     densidade_pop0 = populus0 / area0;
     densidade_pop1 = populus1 / area1;
-    pib_per_capita0 = PIB0 / populus0;
-    pib_per_capita1 = PIB1 / populus1;
+    pib_per_capita0 = (float) PIB0 / populus0;
+    pib_per_capita1 = (float) PIB1 / populus1;
 
     //************** Cálculos dos superpoderes
-    superpoder0 = populus0 + area0 + PIB0 + pts_turisticos0 + pib_per_capita0 + (1 / densidade_pop0);
-    superpoder1 = populus1 + area1 + PIB1 + pts_turisticos1 + pib_per_capita1 + (1 / densidade_pop1);
+    superpoder0 = (float) populus0 + area0 + PIB0 + pts_turisticos0 + pib_per_capita0 + (1 / densidade_pop0);
+    superpoder1 = (float) populus1 + area1 + PIB1 + pts_turisticos1 + pib_per_capita1 + (1 / densidade_pop1);
     
     //************** Resultados das comparações
     comp_populus = populus1 > populus0;
