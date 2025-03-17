@@ -12,7 +12,7 @@ int main() {
     char estado0, estado1;  // letras que representam os estados
     char cod_carta0[4], cod_carta1[4]; // letras dos estados seguidas de um número de 2 dígitos. Ex. 01  
     char cidade0[20], cidade1[20]; // nomes das cidades (SEM ESPAÇO, somente UNDERLINE, nem acentuação)
-    unsigned long int populus0, populus1; // nºs de habitantes das cidades ************** unsigned long
+    int populus0, populus1; // nºs de habitantes das cidades ************** unsigned long DELETADO
     float area0, area1; // áreas das cidades
     float PIB0, PIB1; // PIBs das cidades
     int pts_turisticos0, pts_turisticos1; //nºs de pontos turísticos das cidades
